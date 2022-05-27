@@ -1,0 +1,19 @@
+introdução ao Git
+
+Por quê?
+- software de versionamento de código
+- criado por Linus Torvalds(linux)para trabalhar com o sistema
+- comporta pessoas trabalhando diferentes versões do código
+
+Git/GITHUB são diferentes.
+
+benefícios
+- controle de versão
+- armazenamento em nuvem
+- trabalho em equipe
+- melhorar o código
+- reconhecimento
+
+
+
+

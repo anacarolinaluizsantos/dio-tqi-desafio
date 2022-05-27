@@ -1,0 +1,35 @@
+GUI - interface gráfica
+CLI - linha de comando
+
+- mudar de pastas
+- listar 
+- criar pastas/arquivos
+- deletar
+
+Windows: cd, dir, mkdir, del rmdir
+Linux: cd, ls, mkdir, rm -rf
+
+dir/ls - lista arquivos do diretório - windows - ls(linux)
+cd / - navega entre pastas até a raiz C: - igual no linux
+cd nomedapasta - entra na pasta específica
+cd .. retorna ao diretório anterior
+cls - limpa a tela(windows), clear(linux)
+tab - auto completar, evita digitação de comandos complexos. Digite cd +
+letra maúiscula + tab.
+mkdir nomedapasta - cria pasta nova(windows e linux)
+echo - mostra uma frase digitada, com sinal de maior (>), 
+redireciona o fluxo e joga no arquivo. Se não foi criado, cria
+o arquivo. ex: echo frase > frase.txt. Linux - comando é o mesmo.
+
+del nomedapasta - apaga o arquivo.
+seta para cima - mostra histórico de comandos digitados
+rmdir nomedapasta /s /q - exclui pasta e arquivos que estão nela.
+rm -rf - exclui arquivos e pastas(linux)
+
+
+
+
+
+
+
+

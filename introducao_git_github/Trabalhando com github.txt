@@ -1,0 +1,14 @@
+﻿git config --list - lista as configurações do git;
+git config --global --unset user.email - altera o email connfigurado
+no git.
+
+para enviar o repostório local para o git hub:
+git remote add origin link_repositório( endereço https do git hub).
+git push origin master - leva o diretório ao git hub.
+
+
+
+git remote -v - lista repositórios cadastrados(apenas verificar).
+
+
+

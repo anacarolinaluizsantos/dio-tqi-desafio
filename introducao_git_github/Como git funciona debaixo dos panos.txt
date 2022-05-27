@@ -1,0 +1,44 @@
+tópicos fundamentais
+- sha1
+- objetos fundamentais
+- sistema distribuido
+- segurança
+
+SHA1 - Algoritmo que embaralha os arquivos, gerando um código
+de segurança, gerando caracteres únicos de 40 dígitos. Identifica
+os mesmos de forma rápida e segura. Forma curta de representar
+arquivo.
+
+botão direito do mouse / git bash here - abre o terminal do git na 
+pasta atual.
+
+comandos:
+- openssl sha1 nomedoarquivo - gera o código de encriptação(sha1).
+Essa é uma forma de identificar alterações no arquivo ou que o mesmo
+é original, podendo preservá-lo. E mesmo também funciona em objetos 
+internos.
+
+OBJETOS FUNDAMENTAIS para versionar código
+BLOBS - objeto que tem metadados(tipo, tamanho, conteúdo), bolhas.
+O GIT armazena meta dados e encriptação dos arquivos.(sha).
+
+TREES - objeto que armazena blobs e metadados que contém sha1 e
+nome do arquivos e outras árvores. Contém sha1 dos seus metadados. 
+Encapsula comportamento das pastas e pode apontar para árvores.
+
+COMMITS - objeto que aponta para árvore, o último commit feito, 
+para o autor, mensagem, significa alteração, podendo escrever
+uma mensagem para explicar o significado dos arquivos.
+Eles têm o autor, o horário da alteração e também possuem 
+encriptação dos metadados. Se alterada, gera outro sha1,
+já que ela altera o sha da árvore, o que reflete no commit. Assim,
+qualquer alteração vai refletir no mesmo.
+Cria uma linha do tempo, mostrando as alterações que foram 
+realizadas.
+Sistema distribuído - se o seu código estiver em nuvem e seu repositório
+tiver vários colaboradores, no dispositivos deles terá uma versão dele.
+Como são difíceis de alterar, todas as versões são confiáveis pela estrutura
+dos commits e da estrutura do git, projetada para esse fim. 
+
+
+

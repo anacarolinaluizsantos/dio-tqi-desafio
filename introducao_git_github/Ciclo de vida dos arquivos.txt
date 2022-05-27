@@ -1,0 +1,20 @@
+git init - cria a pasta e inicializa o repositório.
+
+Tracked - arquivos rastreados pelo git, em 3 estágios:
+unmodified - arquivo não modificado
+modified - arquivo modificado, através do sha1.
+staged - arquivos que se preparam para outro agrupamento.
+
+Untracked - arquivos não rastreados.
+
+git status - verifica o estado do arquivo
+mv nomearquivo ./pasta/ - move arquivo para uma pasta.
+
+git add - move os arquivos para área staged, em que ele está
+esperando para ser executado.
+git commit - deu significado aos arquivos, salvando alterações
+no repositório.
+Servidor - repositório remoto - alterações não refletem imedia
+tamente no código.
+
+

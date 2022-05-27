@@ -1,0 +1,11 @@
+﻿git clone - copia o repositório do servidor para computador.
+conflito de merge - ocorre quando o git hub tenta juntar os códigos
+alterados na mesma linha, nesse caso, dizemos manualmente ao git
+qual delas é válida.
+git pull - pega o repositório do git e coloca na máquina.
+
+para copiar para o computador:
+
+- copiar o endereço https do código;
+- digitar git clone https://link do seu projeto;
+

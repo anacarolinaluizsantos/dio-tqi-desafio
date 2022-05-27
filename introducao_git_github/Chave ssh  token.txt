@@ -1,0 +1,22 @@
+Chaves ssh e tokens
+
+chave ssh - conexão segura encriptada com 2 máquinas através de
+chaves públicas e privadas. 
+
+$ ssh-keygen -t ed25519 -C endereço de email - gera a chave, com o
+local onde ela fica salva na máquina.
+
+cd /c/Users/nomedousuario/.ssh - vai ao local onde esse arquivo
+está.
+
+ls - mostra a chave
+
+cat número da chave -  mostra a chave pública.
+no git hub, vá até o item ssh, dê um nome a ela.
+
+$ eval $(ssh-agent -s)- gera um código, que inicia projeto.
+
+$ ssh-add código - passa a chave privada para agente(código)
+
+token de acesso pessoal - gera um token no github, guarda na máquina
+ e na hora da senha, usá-lo. 

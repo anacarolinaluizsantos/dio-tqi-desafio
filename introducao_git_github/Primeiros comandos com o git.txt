@@ -1,0 +1,31 @@
+- iniciar o git: comando: git init
+- iniciar versonamento - git add
+- criar commit - git commit 
+
+PASSO 1:
+criar repositório - mkdir nomedapasta 
+cd nomedapasta - entra nela
+git init - inicializa o git na pasta
+ls -a - lista pastas ocultas
+Se primeiro uso, digite git config --global user.email, digite email
+user.name - digite o nome. Atrela o autor ao nome do usuário
+da pasta(também é possível usá-la localmente).
+
+PASSO 2:
+CRIAR arquivo markdown(.md) - arquivo html.
+# título maior(h1)
+** negrito **
+_itálico_
+:nomedoemotion - usa emotions
+espaço - espaço - cria lista não ordenada
+
+PASSO 3:
+git add *
+git commit -m "nome do arquivo" 
+
+
+
+
+
+
+
