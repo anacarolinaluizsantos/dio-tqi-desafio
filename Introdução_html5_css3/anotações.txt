@@ -1,0 +1,11 @@
+Definição
+HTML foi criado por Tim Bernes-Lee em 1991 no CERN e
+precisava compartilhar documentos com seus colegas.
+Desde então, teve 5 versões:
+HTML1 - 1991
+HTML2 - 1995
+HTML3 - 1997
+HTML4 - 1997
+HTML5 - 2014
+Elementos: <tag de abertura atributo = "conteúdo"></ tag de 
+fechamento>
