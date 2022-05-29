@@ -9,3 +9,16 @@ HTML4 - 1997
 HTML5 - 2014
 Elementos: <tag de abertura atributo = "conteúdo"></ tag de 
 fechamento>
+
+Semântica - elementos de significado ao html.
+<section> - seção genérica de conteúdos, ex: artigo.
+<header> - cabeçalho de uma página ou partes dela, ou
+uma section.
+<article> - artigo relevante, ex: blog.
+<aside> - conteúdo relacionado ao conteúdo principal e representado
+normalmente, por barra lateral. Ex: biografia de um autor, links
+relacionados.
+<footer> - rodapé da página ou de outras seções: article, section, 
+etc.
+<h1><h6> parágrafos, importância dos títulos da página, só pode
+haver 1 título principal por página.
